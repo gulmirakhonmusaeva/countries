@@ -1,0 +1,79 @@
+
+:root {
+    --bg-color :#fff;
+}
+body {
+    background-color:var(--bg-color) ;
+}
+
+.countries-information {
+    padding-top: 80px;
+    padding-bottom: 90px;
+}
+
+
+.back-link {
+    padding-bottom: 90px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 300;
+}
+
+.back-link::before{
+    content: url('../images/left-arrow.svg');
+    width: 15px;
+    height: 15px;
+    padding-right: 5px;
+}
+.countrie-flag-information {
+    display: flex;
+    align-items: center;
+}
+.flag-foto-content {
+    padding-right: 120px;
+    width: 560px;
+    height: 401px;
+}
+.flag-foto {
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
+}
+.countrie-information-text {
+}
+.countrie-name {
+    margin: 0;
+    margin-bottom: 24px;
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: 800;
+}
+.countrie-information-items {
+    display: flex;
+    
+}
+.countrie-information-left-item,.countrie-information-right-item {
+    list-style: none;
+    padding: 0;
+}
+
+.countrie-information-left-item{
+    padding-right: 120px;
+}
+
+.coun-info-item {
+    margin-bottom: 8px;
+}
+
+.border-countries {
+    padding-top: 70px;
+}
+
+.border-countrie-link {
+    display: inline-block;
+    padding: 5px 27px;
+    font-weight: 300;
+    border: 1px solid rgba(0, 0, 0, 0.1049);
+    -webkit-box-shadow: 0px 2px 20px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 2px 20px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 2px 20px 0px rgba(34, 60, 80, 0.2);

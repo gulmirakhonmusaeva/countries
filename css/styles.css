@@ -1,0 +1,115 @@
+
+  /* HEADER */
+
+  .header {
+      background-color:var(--content-bg) ;
+      padding-top: 23px;
+      padding-bottom: 24px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+
+}
+.logo-link {
+    margin-right: auto;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+}
+.btn-dark-mode::before {
+    content: url('../images/moon.svg');
+    width: 15px;
+    height: 15px;
+    padding-right: 8px;
+    padding-top: 10px;
+}
+
+
+/* MAIN-CONTENT */
+.main-content {
+    margin-top: 48px;
+} 
+
+.forms-content {
+    display: flex;
+}
+
+.forms-content-countries-list{
+    margin-right: auto;
+   
+}
+.countries-search-input {
+    width: 480px;
+    padding: 18px;
+    padding-left: 64px;
+    background-image: url('../images/icon-search-black.svg');
+    background-repeat: no-repeat;
+    background-position: 25px, 44px;
+    background-color: var(--content-bg);
+    color:var(--text-color);
+    border: none;
+    outline: none;
+}
+
+.countries-search-input::placeholder {
+    color: var(--text-color);
+}
+
+.region-select {
+    padding: 18px 24px;
+    width: 200px;
+    color: var(--text-color);
+    background-color: var(--content-bg);
+    border: none;
+    outline: none;
+}
+
+
+/* FLAGGES-SECTION */
+.flagges {
+    padding-top: 48px;
+}
+
+.countrie-flagges-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style: none;
+}
+.countrie-flagges-list-item {
+    margin-bottom: 75px;
+    width:267px;
+    background-color:var(--content-bg);
+}
+
+.countrie-flagges-list-item:not(:nth-child(4n)){
+    margin-right: 75px;
+}
+
+.countrie-flage-img {
+    width:267px;
+    height: 160px;
+}
+.flag-img {
+    width:inherit;
+    height: inherit;
+    object-fit: cover;
+}
+.countrie-flag-info {
+    padding-top: 24px;
+    padding-bottom: 46px;
+    padding-left: 24px;
+}
+.countrie-title {
+    margin: 0;
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 800px;
+}
+
+
+
+ 
